@@ -1,0 +1,28 @@
+body {
+  padding: 0;
+  margin : 0;
+}
+
+input[class="error"] {
+  border: 2px solid red;
+  border-radius: 3px;
+}
+
+input[class="valid"] {
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+#resultContainer.success {
+  color: green;
+}
+
+#resultContainer.error {
+  color: yellow;
+  background-color: red;
+  display:inline-block;
+}
+
+#resultContainer.progress {
+  color: blue;
+}
